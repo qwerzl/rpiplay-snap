@@ -14,7 +14,7 @@ parts:
   rpiplay:
     plugin: cmake
     source-type: git
-    source: https://github.com/FD-/RPiPlay.git
+    source: https://github.com/FDH2/UxPlay.git
     build-packages:
       - g++
       - make
