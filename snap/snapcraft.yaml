@@ -28,7 +28,7 @@ parts:
       - gstreamer1.0-vaapi 
       - gstreamer1.0-plugins-bad
       - libffi-dev
-      - libffi7
+      - libffi8
     stage-packages:
       - libavahi-compat-libdnssd-dev 
       - libplist-dev 
@@ -39,7 +39,7 @@ parts:
       - gstreamer1.0-vaapi 
       - gstreamer1.0-plugins-bad
       - libffi-dev
-      - libffi7
+      - libffi8
 apps:
   test-rpiplay:
     command: rpiplay
